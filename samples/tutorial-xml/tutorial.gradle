@@ -22,6 +22,7 @@ dependencies {
             "org.springframework:spring-beans:$springVersion",
             "org.springframework:spring-web:$springVersion",
             "org.springframework:spring-webmvc:$springVersion",
+            "com.comarch.tum:tum.web:0.1-SNAPSHOT",
             "org.slf4j:slf4j-api:$slf4jVersion"
 
     runtime project(':spring-security-web'),
@@ -29,6 +30,7 @@ dependencies {
             project(':spring-security-taglibs'),
             "javax.servlet:jstl:$jstlVersion",
             "org.slf4j:jcl-over-slf4j:$slf4jVersion",
+            "com.comarch.tum:tum.web:0.1-SNAPSHOT",
             "ch.qos.logback:logback-core:$logbackVersion",
             "ch.qos.logback:logback-classic:$logbackVersion"
 }
